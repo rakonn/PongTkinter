@@ -87,10 +87,12 @@ class Ball():
         coords = self.canvas.coords(self.ball)
 
         if coords[0] <= 0:
-            self.canvas.delete(self.ball)
+            #needs goal behaviour
+            self.direction = 180 - self.direction
             print("goal left")
-        elif coords[0] >= 895:
-            self.canvas.delete(self.ball)
+        elif coords[0] >= 895:            
+            #needs goal behaviour
+            self.direction = 180 - self.direction
             print("goal right")
         elif coords[1] <= 0:
             self.direction = 360 - self.direction
