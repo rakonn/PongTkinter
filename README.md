@@ -3,4 +3,4 @@ Pong in tkinter (unfinished)
 
 Here's a demo image:
 
-<img src="images/pong.png" width=40% height=40%>
+<img src="images/pong.png" width=100% height=100%>
