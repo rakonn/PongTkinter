@@ -1,5 +1,5 @@
 # PongTkinter
-Pong in tkinter (quite mediocre)
+Pong in tkinter (unfinished)
 
 Here's a demo image:
 
